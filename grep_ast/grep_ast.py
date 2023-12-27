@@ -215,9 +215,9 @@ class TreeContext:
             if i not in self.show_lines:
                 if dots:
                     if self.line_number:
-                        output += "...⋮...\n"
+                        output += "...*...\n"
                     else:
-                        output += "⋮...\n"
+                        output += "*...\n"
                     dots = False
                 continue
 
